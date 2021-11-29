@@ -1,16 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-header{
-    width: 100%;
-    height: 20vh;
+body {
+  font-family: "Poppins", sans-serif;
 }
-img{
-    margin: auto;
-    border-radius: 50%;
+h1 {
+  font-size: 50px;
+  /* color: red; */
 }
-p{
-    margin: auto;
-    text-align: center;
+.name-highlight {
+  color: orange;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.half-width1 {
+  width: 40%;
+}
+.half-width2 {
+  width: 40%;
+}
+.half-width2 img {
+  width: 100%;
 }
