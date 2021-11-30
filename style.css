@@ -5,8 +5,16 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* .container {
+  margin: 1.2em 1.2em 0 1.2em;
+  padding: 5%;
+} */
+section {
+  margin: 1.5em 1.5em 0 1.5em;
+  padding: 5%;
+}
 h1 {
-  font-size: 50px;
+  font-size: 3.5rem;
   /* color: red; */
 }
 .name-highlight {
@@ -26,4 +34,10 @@ section {
 }
 .half-width2 img {
   width: 100%;
+}
+.part1 {
+  background-image: url(/images/top-banner.png);
+}
+.part2 {
+  background-image: url(/images/biography-bg.png);
 }
